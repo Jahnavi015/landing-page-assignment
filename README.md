@@ -4,7 +4,7 @@ A fully responsive and animated landing page built using **React**, **Vite**, **
 
 ## Live Demo
 
-👉 [View Live Site](https://landing-page-assignment-final.netlify.app/)
+👉 [View Live Site](https://landing-page-dist-assignment.netlify.app/)
 
 ---
 
