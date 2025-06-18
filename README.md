@@ -1,12 +1,63 @@
-# React + Vite
+# Landing Page Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and animated landing page built using **React**, **Vite**, **Tailwind CSS**, and **GSAP** as part of a frontend development assignment.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Live Site](https://magenta-bonbon-2baa44.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ✨ Features
+
+- ✅ Word-by-word scroll animation in the Hero section using GSAP
+- ✅ Horizontally scrollable Best Selling Products with card animations
+- ✅ Expandable FAQ section with smooth ease-in-out transitions
+- ✅ Fully responsive layout (mobile, tablet, and desktop)
+- ✅ Built with modern frontend stack and deployed on Netlify
+
+---
+
+## Tech Stack
+
+- **React** (with Vite)
+- **Tailwind CSS**
+- **GSAP + ScrollTrigger**
+- **Netlify** (for deployment)
+
+---
+
+## 📂 Folder Structure
+landing-page/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Hero.jsx
+│ │ ├── Products.jsx
+│ │ ├── FAQ.jsx
+│ └── App.jsx
+├── index.html
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+---
+
+## Getting Started
+
+To run the project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+Author
+Created by Jahnavi for frontend animation assignment.
+
+
